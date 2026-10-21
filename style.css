@@ -1,3 +1,24 @@
 Body{
     font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color:black
+    color: aliceblue;
+    padding: 15px;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+nav a{
+    color: azure;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover{
+    color:crimson;
 }
