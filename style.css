@@ -66,3 +66,8 @@ nav a:hover{
     transform: translateY(-5x);
     transition: 0.3s;
 }
+
+.card-link{
+    text-decoration: none;
+    color:black
+}
