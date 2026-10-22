@@ -40,3 +40,29 @@ nav a:hover{
     color:azure;
     cursor: pointer;
 }
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.card{
+    background-color:azure;
+    width:220px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card:hover{
+    transform: translateY(-5x);
+    transition: 0.3s;
+}
