@@ -24,21 +24,42 @@ nav a:hover{
 }
 
 .hero{
+    background-color:darkgray;
+    color:azure
+
+    min-height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 50px 20px;
-    background-color:azure;
+}
+
+.hero-content{
+    max-width: 700px;
 }
 
 .hero h2{
-    font-size: 20px;
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
-.hero button{
-    padding: 10px 10px;
-    border: none;
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom: 30px
+}
+
+.hero-btn{
+    padding: 12px 25px;
+    border-radius: 5px;
     background-color:crimson;
     color:azure;
-    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-btn:hover{
+    background-color:crimson;
 }
 
 .features{
@@ -55,6 +76,7 @@ nav a:hover{
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .card h3{
