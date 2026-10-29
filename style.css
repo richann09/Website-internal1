@@ -111,3 +111,17 @@ footer{
     text-align: center;
     padding: 20px
 }
+
+.page-hero{
+    background-color:azure;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.info-section{
+    background-color: azure;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 25px auto;
+    max-width: 900px;
+}
