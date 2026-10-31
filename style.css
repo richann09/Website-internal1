@@ -4,7 +4,7 @@ Body{
 }
 
 header{
-    background-color:black
+    background-color:black;
     color: aliceblue;
     padding: 15px;
 }
@@ -14,7 +14,7 @@ nav{
 }
 
 nav a{
-    color:black;
+    color:azure;
     text-decoration: none;
     margin-right: 15px;
 }
@@ -24,16 +24,25 @@ nav a:hover{
 }
 
 .hero{
-    background-color:darkgray;
-    color:azure
+    background-image:
+    linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("images/hero-bike.jpg");
+
+    background-size: cover;
+    background-position: center;
 
     min-height: 500px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
     text-align: center;
-    padding: 50px 20px;
+
+    color: white;
 }
 
 .hero-content{
@@ -159,9 +168,24 @@ footer{
 }
 
 .bike-card img{
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 15px;
+    width: 50%;
+    height: 50px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.page-image{
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+
+    display: block;
+    margin: 20px auto;
+
+    border-radius: 10px;
 }
 
 .comparison{
